@@ -67,6 +67,7 @@ body {
 
 #second {
   width: 50%;
+  background-color: #922929;
 }
 
 #smalltext {
@@ -76,6 +77,7 @@ body {
 }
 
 .lo {
+  color: white;
   font-size: 25px;
 }
 
