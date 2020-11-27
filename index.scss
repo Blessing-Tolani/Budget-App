@@ -35,19 +35,36 @@ body{
 #feat > div{
     float:left;
 }
+@media screen and (max-width:600px){
+    #feat > div{
+        float:none;
+        width:100%;
+    }
+    #first{
+        margin-bottom:50px
+    }
+    #table{
+        width:100%;
+        
+    }
+    #tablediv{
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
 #feat{
     padding-top:50px;
 }
 #first{
     width:40%;
-   // background-color:yellow;
+  // background-color:yellow;
     text-align:center;
    
 }
 #second{
     width:50%;
  
-   // background-color: rgb(146, 41, 41);
+  // background-color: rgb(146, 41, 41);
 }
 #smalltext{
     color:blue;

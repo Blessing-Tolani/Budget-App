@@ -39,6 +39,23 @@ body {
   float: left;
 }
 
+@media screen and (max-width: 600px) {
+  #feat > div {
+    float: none;
+    width: 100%;
+  }
+  #first {
+    margin-bottom: 50px;
+  }
+  #table {
+    width: 100%;
+  }
+  #tablediv {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 #feat {
   padding-top: 50px;
 }
