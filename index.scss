@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h3{
+    color:white;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+body,html{
+    height:100%;
+}
+body{
+    background-color: rgb(21, 58, 21);
+}
+#text{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    padding-top:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:auto ;
+    grid-template-rows:auto auto ;
+    height:100%;
+    // grid-gap:5px;
+    // >div{
+    // background-color: lightblue;
+    // }
+}
+#feat > div{
+    float:left;
+}
+#feat{
+    padding-top:50px;
+}
+#first{
+    width:40%;
+   // background-color:yellow;
+    text-align:center;
+   
+}
+#second{
+    width:50%;
+ 
+   // background-color: rgb(146, 41, 41);
+}
+#smalltext{
+    color:blue;
+    font-size:14px;
+    display:none;
+}
+
+.lo{
+    font-size:25px;
+}
+#income, #item{
+    width:200px;
+    height:20px;
+    border:1px solid #e8ecef;
+    background-color:#e8ecef;
+    border-radius: 0.6em;
+    padding:15px;
+    margin:20px 0px 0px;
+    font-size: 15px;
+    color:#053d59;
+
+  }
+  #tablediv{
+     // background-color: white;
+      text-align:center;
+      padding-top:50px;
+  }
+  #table{
+      background:white;
+      margin: 0 auto;
+      border:1px solid white;
+      border-radius:0.5em;
+     // border-collapse: collapse;
+      width:70%;
+      text-align:center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  td,th{
+      border-bottom:1px solid #dddddd;
+      padding:10px;
+  }
+  thead > tr{
+      background-color: #dddddd;
+  }
+  
+ #item{
+     margin-bottom:10px;
+ }
+  #rating{
+      margin-top:5px;
+    width:150px;
+    height:30px;
+    border:1px solid #e8ecef;
+    background-color:#e8ecef;
+    border-radius: 0.6em;
+   
+    color:black;
+  }
+  input::placeholder{
+      font-size:14px;
+  }
+  #second{
+      text-align:center;
+  }
+
+  .button{
+    margin: 20px 0;
+    width:120px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    font-size: 16px;
+    cursor: pointer;
+    height:37px;
+    border:1px solid rgb(4, 44, 4);
+    border-radius:2em;
+    color:white;
+    background: linear-gradient(to right, rgb(16, 99, 16)  50%,rgb(4, 44, 4) 50%);
+    transition: all .5s ease-out;
+    background-position: right bottom;
+    background-size: 200% 100%;
+   
+    &:hover{
+        border:1px solid  rgb(16, 99, 16);
+        background-position: left bottom;
+        color:white
+    }
+  }
+ .two{
+     width:200px;
+ }
