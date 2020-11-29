@@ -9,7 +9,7 @@
 <body>
     <div class = "grid-container">
         <div class = "grid-items">
-            <h2 id = "text">MAKE YOUR BUDGET</h2>
+            <h2 id = "text">CREATE YOUR BUDGET</h2>
             <div id = "feat">
                 <div id = "first">
                     <h3>Income</h3>
@@ -26,7 +26,7 @@
                     <h3>Enter Budget</h3>
                     <form id = "form2">
                         <input type  = "text" id = "item" name = "item" placeholder = "Enter Item"> <br />
-                        <label for = "rating" style = "color:white">Piority level</label> <br/>
+                        <label for = "rating">Piority level</label> <br/>
                         <select name ="rating" id="rating">
                             <option value = "">Select level</option>
                             <option value = 4>4 - Highest</option>
@@ -34,9 +34,11 @@
                             <option value = 2>2 - Low</option>
                             <option value = 1>1 - Lowest</option>
                         </select> <br />
+               
                         <button class = "button two">Calculate budget</button>
                     </form>
                     <button class = "button one" onclick = "clearForm()">Add budget</button>
+                   
                 </div>
             </div>
         </div>

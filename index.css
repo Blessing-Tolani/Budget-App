@@ -5,7 +5,8 @@
 }
 
 h3 {
-  color: white;
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
 }
 
 input[type=number] {
@@ -17,13 +18,13 @@ body, html {
 }
 
 body {
-  background-color: #153a15;
+  background-color: #a1c3d1;
 }
 
 #text {
   text-align: center;
-  color: white;
-  font-size: 30px;
+  color: black;
+  font-size: 28px;
   padding-top: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -70,13 +71,12 @@ body {
 }
 
 #smalltext {
-  color: blue;
+  color: #106310;
   font-size: 14px;
   display: none;
 }
 
 .lo {
-  color: white;
   font-size: 25px;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 td, th {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #dfd8d8e0;
   padding: 10px;
 }
 
@@ -146,19 +146,32 @@ input::placeholder {
   font-size: 16px;
   cursor: pointer;
   height: 37px;
-  border: 1px solid #042c04;
+  border: 1px solid #303c6c;
   border-radius: 2em;
   color: white;
-  background: linear-gradient(to right, #106310 50%, #042c04 50%);
+  background: linear-gradient(to right, #a1c3d1 50%, #303c6c 50%);
   transition: all .5s ease-out;
   background-position: right bottom;
   background-size: 200% 100%;
 }
 
 .button:hover {
-  border: 1px solid #106310;
+  border: 1px solid #303c6c;
   background-position: left bottom;
-  color: white;
+  color: black;
+}
+
+.me {
+  background: gray;
+  color: black;
+  border: none;
+  cursor: text;
+}
+
+.me:hover {
+  color: black;
+  background: gray;
+  border: none;
 }
 
 .two {

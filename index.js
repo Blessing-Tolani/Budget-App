@@ -24,7 +24,7 @@ form.onsubmit = (e) => {
     e.preventDefault();
     inputIncome = + document.getElementById("income").value;
     document.getElementById("smalltext").style.display = "block";
-    document.getElementById("one").disabled = true;
+    document.getElementById("one").classList.toggle("me");
     
 }
 
