@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  outline: none;
 }
 
 h3 {
@@ -41,6 +47,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  #text {
+    font-size: 23px;
+  }
   #feat > div {
     float: none;
     width: 100%;
